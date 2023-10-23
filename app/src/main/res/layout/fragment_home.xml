@@ -140,7 +140,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:lineHeight="13dp"
-                        android:text="Clean energy is energy that comes from renewable, zero emission sources that do not pollute the atmosphere when used, as well as energy saved by energy efficiency measures."
+                        android:text="Clean sdjs energy is energy that comes from renewable, zero emission sources that do not pollute the atmosphere when used, as well as energy saved by energy efficiency measures."
                         android:textColor="@color/black"
                         android:textSize="11dp" />
 
