@@ -14,7 +14,7 @@
 
     <item
         android:id="@+id/comm"
-        android:title="Communities"
+        android:title="Community"
         android:icon="@drawable/ic_community"
         />
     <item
