@@ -10,7 +10,7 @@
     <RelativeLayout
         android:id="@+id/nav"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
         <LinearLayout
             android:id="@+id/logo"
             android:layout_width="wrap_content"
@@ -193,7 +193,18 @@
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+
+
         </LinearLayout>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/floatbutton"
+            android:padding="8dp"
+            android:src="@drawable/ic_add_" />
 
 
     </RelativeLayout>
