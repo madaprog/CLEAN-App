@@ -168,7 +168,7 @@
                     android:fontFamily="@font/dmsansmedium"
                     android:layout_gravity="center"
                     android:textColor="@color/app_primary"
-                    android:text="+Join"/>
+                    android:text="+join"/>
             </LinearLayout>
 
 
