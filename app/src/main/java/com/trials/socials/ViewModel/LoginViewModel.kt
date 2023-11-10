@@ -15,9 +15,7 @@ import retrofit2.Response
 class LoginViewModel(private val userService: UserService) : ViewModel() {
 
     private val _loginResult  = MutableLiveData<Result<Boolean>>();
-    init {
-        val loginResult : LiveData<Result<Boolean>> = _loginResult ;
-    }
+    val loginResult : LiveData<Result<Boolean>> = _loginResult ;
 
 
     fun login(username: String, password: String){

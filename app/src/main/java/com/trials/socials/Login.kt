@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewModelScope
 import com.trials.socials.Retrofit.ApiClient
 import com.trials.socials.Retrofit.UserService
 import com.trials.socials.ViewModel.LoginViewModel
@@ -58,8 +59,20 @@ class Login : Fragment() {
         binding.logBtn.setOnClickListener{
             val password: String = binding.password.text.toString()
             val username: String = binding.username.text.toString()
-
+            viewModel.login(username, password);
         }
+
+
+
+        viewModel.loginResult.observe(viewLifecycleOwner) {
+           result->
+            if (result.isSuccess){
+                Log.d("Tage", "Hellow")
+            }else {
+                System.out.println(result)
+            }
+        }
+
 
 
 
